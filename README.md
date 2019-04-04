@@ -20,3 +20,7 @@ within the file.
 The GST extended DRI symbol format is also supported, so
 up to 14 character long symbols do work. Currently only global symbols are
 supported, not local ones or register based ones.
+
+In the script you can find `AtariSTBaseAddress`, which is the address
+where the program is loaded. It is `0x10000` to avoid any overlap with
+low-memory variables.
